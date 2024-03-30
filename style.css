@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container div {
+  display: flex;
+
+}
+
+.screen {
+  height: 152px;
+  width: 360px;
+  background-color: whitesmoke;
+  margin: 8px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button {
+  margin: 8px;
+  width: 70px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1 px solid black;
+  font-size: 25px;
+}
+
+.AC {
+  width: 156px;
+}
+
+.delete {
+  width: 156px;
+}
+
+.button-container-five {
+  margin-bottom: 25px;
+}
+
+.last-operation {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.current-operation {
+  font-size: 50px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
